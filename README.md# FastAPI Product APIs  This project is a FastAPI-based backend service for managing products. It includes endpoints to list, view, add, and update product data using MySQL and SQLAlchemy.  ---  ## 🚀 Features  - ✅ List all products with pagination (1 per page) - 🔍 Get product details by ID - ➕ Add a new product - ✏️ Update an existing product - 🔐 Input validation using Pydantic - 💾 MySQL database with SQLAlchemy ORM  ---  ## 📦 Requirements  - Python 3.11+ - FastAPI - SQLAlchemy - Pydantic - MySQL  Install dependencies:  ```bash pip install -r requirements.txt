@@ -1,0 +1,28 @@
+# FastAPI Product APIs
+
+This project is a FastAPI-based backend service for managing products. It includes endpoints to list, view, add, and update product data using MySQL and SQLAlchemy.
+
+---
+
+# Features
+
+- List all products with pagination (1 per page)
+- Get product details by ID
+-  Add a new product
+-  Update an existing product
+-  Input validation using Pydantic
+-  MySQL database with SQLAlchemy ORM
+
+---
+
+# Requirements
+
+- Python 3.11+
+- FastAPI
+- SQLAlchemy
+- Pydantic
+- MySQL
+
+Install dependencies:
+
+pip install -r requirements.txt
